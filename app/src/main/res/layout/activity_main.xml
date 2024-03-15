@@ -15,6 +15,7 @@
         android:backgroundTint="@color/_717171"
         android:text="@string/qst"
         android:textColor="@color/white"
+        android:textSize="24sp"
         app:cornerRadius="0dp"
         app:layout_constraintBottom_toTopOf="@+id/buttonCE"
         app:layout_constraintStart_toEndOf="@+id/buttonTwo" />
@@ -28,6 +29,7 @@
         android:backgroundTint="#433F3F"
         android:text="@string/_1"
         android:textColor="@color/white"
+        android:textSize="24sp"
         app:cornerRadius="0dp"
         app:layout_constraintBottom_toTopOf="@+id/buttonSeven"
         app:layout_constraintStart_toEndOf="@+id/buttonFour" />
@@ -41,6 +43,7 @@
         android:backgroundTint="#433F3F"
         android:text="@string/_2"
         android:textColor="@color/white"
+        android:textSize="24sp"
         app:cornerRadius="0dp"
         app:layout_constraintBottom_toTopOf="@+id/buttonCE"
         app:layout_constraintStart_toStartOf="@+id/guideline" />
@@ -50,10 +53,10 @@
         android:layout_width="87dp"
         android:layout_height="121dp"
         android:layout_marginStart="8dp"
-        android:layout_marginBottom="0dp"
         android:backgroundTint="#433F3F"
         android:text="@string/_3"
         android:textColor="@color/white"
+        android:textSize="24sp"
         app:cornerRadius="0dp"
         app:layout_constraintBottom_toTopOf="@+id/buttonDivide"
         app:layout_constraintStart_toEndOf="@+id/buttonZero" />
@@ -67,6 +70,7 @@
         android:backgroundTint="#433F3F"
         android:text="@string/_4"
         android:textColor="@color/white"
+        android:textSize="24sp"
         app:cornerRadius="0dp"
         app:layout_constraintBottom_toTopOf="@+id/buttonNine"
         app:layout_constraintStart_toStartOf="@+id/guideline" />
@@ -79,6 +83,7 @@
         android:backgroundTint="#433F3F"
         android:text="@string/_5"
         android:textColor="@color/white"
+        android:textSize="24sp"
         app:cornerRadius="0dp"
         app:layout_constraintBottom_toTopOf="@+id/buttonDivide"
         app:layout_constraintStart_toEndOf="@+id/buttonThree" />
@@ -92,6 +97,7 @@
         android:backgroundTint="#433F3F"
         android:text="@string/_6"
         android:textColor="@color/white"
+        android:textSize="24sp"
         app:cornerRadius="0dp"
         app:layout_constraintBottom_toTopOf="@+id/buttonDelete"
         app:layout_constraintStart_toStartOf="@+id/guideline" />
@@ -105,6 +111,7 @@
         android:backgroundTint="#433F3F"
         android:text="@string/_7"
         android:textColor="@color/white"
+        android:textSize="24sp"
         app:cornerRadius="0dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintStart_toEndOf="@+id/buttonNine" />
@@ -118,6 +125,7 @@
         android:backgroundTint="#433F3F"
         android:text="@string/_8"
         android:textColor="@color/white"
+        android:textSize="24sp"
         app:cornerRadius="0dp"
         app:layout_constraintBottom_toTopOf="@+id/buttonComma"
         app:layout_constraintStart_toEndOf="@+id/buttonOne" />
@@ -131,6 +139,7 @@
         android:backgroundTint="#433F3F"
         android:text="@string/_9"
         android:textColor="@color/white"
+        android:textSize="24sp"
         app:cornerRadius="0dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintStart_toStartOf="@+id/guideline" />
@@ -144,6 +153,7 @@
         android:backgroundTint="#433F3F"
         android:text="@string/_0"
         android:textColor="@color/white"
+        android:textSize="24sp"
         app:cornerRadius="0dp"
         app:layout_constraintBottom_toTopOf="@+id/buttonOut"
         app:layout_constraintStart_toEndOf="@+id/buttonDelete" />
@@ -157,6 +167,7 @@
         android:backgroundTint="#433F3F"
         android:text="@string/comma"
         android:textColor="@color/white"
+        android:textSize="24sp"
         app:cornerRadius="0dp"
         app:layout_constraintBottom_toTopOf="@+id/buttonMinus"
         app:layout_constraintStart_toEndOf="@+id/buttonOne" />
@@ -170,6 +181,7 @@
         android:backgroundTint="@color/_717171"
         android:text="@string/ce"
         android:textColor="@color/white"
+        android:textSize="24sp"
         app:cornerRadius="0dp"
         app:layout_constraintBottom_toTopOf="@+id/buttonFour"
         app:layout_constraintStart_toStartOf="@+id/guideline" />
@@ -182,6 +194,7 @@
         android:backgroundTint="@color/_717171"
         android:text="@string/arr"
         android:textColor="@color/white"
+        android:textSize="24sp"
         app:cornerRadius="0dp"
         app:layout_constraintBottom_toTopOf="@+id/buttonTwo"
         app:layout_constraintStart_toStartOf="@+id/guideline" />
@@ -195,6 +208,7 @@
         android:backgroundTint="@color/b65700"
         android:text="@string/plus"
         android:textColor="@color/white"
+        android:textSize="24sp"
         app:cornerRadius="0dp"
         app:layout_constraintBottom_toTopOf="@+id/buttonComma"
         app:layout_constraintStart_toEndOf="@+id/buttonEight" />
@@ -207,6 +221,7 @@
         android:backgroundTint="@color/b65700"
         android:text="@string/minus"
         android:textColor="@color/white"
+        android:textSize="24sp"
         app:cornerRadius="0dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintStart_toEndOf="@+id/buttonSeven" />
@@ -219,6 +234,7 @@
         android:backgroundTint="@color/b65700"
         android:text="@string/mult"
         android:textColor="@color/white"
+        android:textSize="24sp"
         app:cornerRadius="0dp"
         app:layout_constraintBottom_toTopOf="@+id/buttonPlus"
         app:layout_constraintStart_toEndOf="@+id/buttonEqual" />
@@ -231,6 +247,7 @@
         android:backgroundTint="@color/b65700"
         android:text="@string/divide"
         android:textColor="@color/white"
+        android:textSize="24sp"
         app:cornerRadius="0dp"
         app:layout_constraintBottom_toTopOf="@+id/buttonOut"
         app:layout_constraintStart_toEndOf="@+id/buttonZero" />
@@ -243,6 +260,7 @@
         android:backgroundTint="@color/b65700"
         android:text="@string/equal"
         android:textColor="@color/white"
+        android:textSize="24sp"
         app:cornerRadius="0dp"
         app:layout_constraintBottom_toTopOf="@+id/buttonEight"
         app:layout_constraintStart_toEndOf="@+id/buttonOut" />

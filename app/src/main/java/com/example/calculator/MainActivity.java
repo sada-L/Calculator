@@ -29,8 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
     String Num = " ";
     String Temp = " ";
-    String Oper;
-
+    String Oper = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -234,7 +233,6 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     };
-
     private double Calculation(String s){
         double eql = 0;
         switch (s){
